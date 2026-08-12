@@ -123,7 +123,7 @@ app=FastAPI(
 @app.get("/")
 def root():
   return("message":"Server is running.visit /agent/playground/ to chat , or /docs for the API.")
-  app_routes(app,forward_agent_chain "/agent")
+  app_routes(app,forward_agent_chain,path="/agent")
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))
