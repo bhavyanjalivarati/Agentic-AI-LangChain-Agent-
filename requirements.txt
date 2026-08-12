@@ -6,4 +6,4 @@ langchain-google-genai
 requests
 sse_starlette
 
-lanchain
+langchain
