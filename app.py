@@ -116,7 +116,7 @@ formatted_agent_chain = (
 ##Need To Code
 app=FastAPI(
     title="Movies & weather agent",
-    version="1.0"
+    version="1.0",
     description="A Lanchain agent(gemini) with search_movies and get_weather tools,server via LangServe.",
 )
 
